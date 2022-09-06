@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="wordwartwo.css">
+    <title>Login</title>
+
+</head>
+ <a href="wordwartwo.html" target="_self">
+    Voltar
+ </a>
+        <div>
+            <h1 id="titulo">Cadastro de Soldados</h1>
+            <p id="subtitulo">Complete suas informaçoes</p>
+
+        </div>
+
+<body>
+    
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            </div>
+
+            <div class="campo">
+            <label>Sobrenome</label>
+        
+            <input type="text" name="Sobrenome" id="Sobrenome">
+            <br>
+            </div>
+
+        </fieldset>
+        
+            <div class="campo">
+                <label>Email</label>
+                <input type="email" name="email" id="email">
+
+            </div>
+
+            <div class="campo">
+                <label>Qual seu gênero</label>
+                <label>
+                    <input type="radio" name="devweb" value="Masculino">Masculino
+                </label>
+                
+                <label>
+                    <input type="radio" name="devweb" value="Feminino">Feminino
+                </label>
+            </div>
+
+            <div class="campo">
+                <label>NivelGuerra</label>
+                <select id="nivelguerra">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Soldado</option>
+                    <option>Cabo</option>
+                    <option>Sargento</option>
+                    <option>Tenente</option>
+                    <option>Tenente Coronel</option>
+                    <option>Coronel</option>
+                    
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><i>Selecione a guerra que queira viajar</i>  .</label><br><br>
+                    <input type="checkbox" id="guerra1" name="guerra1" value="pearl harbor">
+                    <label for="guerra1">Batalha de pearl harbor</label><br>
+                    <input type="checkbox" id="guerra2" name="guerra2" value="Normandia">
+                    <label for="guerra2">Batalha da Normandia</label><br>
+                    <input type="checkbox" id="guerra3" name="guerra3" value="midway">
+                    <label for="guerra3">Batalha de midway</label><br>
+                    <input type="checkbox" id="guerra4" name="guerra4" value="Stalingrado">
+                    <label for="guerra4">Batalha de Stalingrado</label><br>
+                    <input type="checkbox" id="guerra5" name="guerra5" value="Berlim">
+                    <label for="guerra5">Batalha de Berlim</label><br>
+                    <input type="checkbox" id="guerra6" name="guerra6" value="Okinawa">
+                    <label for="guerra6">Batalha de Okinawa</label><br>
+                </div>
+            
+            </fieldset>
+
+            <div class="campo">
+                <label>Conte sobre o porque de se interessar por historia .</label>
+                <textarea rows="5" style="width: 30em;" id="experiencia"></textarea>
+
+            </div>
+            <button type="submit">Concluir</button>
+
+    </form>
+    
+
+
+
+</body>
+</html>

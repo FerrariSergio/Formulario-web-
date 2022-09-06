@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#titulo{
+
+    font-family:didot black;
+    color: #000;
+    margin-left: 5%;
+}
+#subtitulo{
+
+    font-family:didot black
+    ;
+    color: #000;
+    margin-left: 8%;
+}
+fieldset{
+
+    border: 0;
+}
+body{
+
+    background-image: url(fundo-marrom-1.png) ;
+    background-repeat: no-repeat;
+    background-size: 1496px;
+    font-family:didot black;
+    font-size: 1em;
+    color: #000; ;
+    margin-left: 36%;
+    margin-top: 2%; ;
+    justify-content: center;
+}
+
+input , select ,textarea , button {
+
+    border-radius: 5px;
+
+
+}
+.campo{
+    margin-bottom: 1em;
+
+}
+.campo label{
+    margin-bottom: 0,2em;
+    color: #000;
+    display: block;
+
+}
+fieldset.grupo.campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input [type="texto"], .campo input [type="email"], .campo select .campo textarea { 
+
+    padding: 0,2em;
+    border: 1px solid , rgb(18, 67, 159);
+    box-shadow: 2px 2px 2px rgba(181, 31, 31, 0.2);
+    display:block;
+
+}
+.campo select option {
+
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus .campo textarea:focus{ 
+
+    background-color: peru;
+
+
+}
+
+.botao {
+
+    font-size: 1.2em;
+    background-color:peru;
+    border: 0;
+    margin-bottom: 1em;
+    color:blue;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+#check
+
+    display:inline-block ;
